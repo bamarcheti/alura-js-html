@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+<script>
+	function pulaLinha2(pulaDuasLinhas) {
+		if (pulaDuasLinhas) {
+		document.write("<br><br>")
+		} else {
+		document.write("<br>")
+		}
+	}
+
+	function pulaLinha() {
+		document.write("<br>")
+	}
+
+	function mostra(frase) {
+		document.write(frase)
+		pulaLinha()
+	}
+
+	var ano = 2024;
+
+	mostra("Flávio tem " + (ano - 1977))
+
+    mostra("Barney nasceu em " + (ano - 1996));
+
+    pulaDuasLinhas = true;
+
+    pulaLinha2(pulaDuasLinhas)
+
+	ano = 2025;
+	mostra("Joaquim tem " + (ano - 1976) + " anos")
+</script>
